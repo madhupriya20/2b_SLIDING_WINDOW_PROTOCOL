@@ -1,5 +1,8 @@
 # 2b IMPLEMENTATION OF SLIDING WINDOW PROTOCOL
+##Name:Madhupriya.R
+##Reg no: 212224040177
 ## AIM
+To write a python program to perform sliding window protocol
 ## ALGORITHM:
 1. Start the program.
 2. Get the frame size from the user
@@ -8,6 +11,7 @@
 5. If your frames reach the server it will send ACK signal to client
 6. Stop the Program
 ## PROGRAM
+```
 ##client
 import socket
 s=socket.socket()
@@ -34,9 +38,11 @@ s.connect(('localhost',8000))
 while True: 
  print(s.recv(1024).decode())
  s.send("acknowledgement recived from the server".encode())
+```
 ## OUPUT
-![image](https://github.com/user-attachments/assets/aade8bc6-7b95-4509-902e-5f8308aeabce)
-![image](https://github.com/user-attachments/assets/f92add17-4a3f-417a-9560-f2bcbff4d62d)
+![image](https://github.com/user-attachments/assets/4bacf67b-ffce-4d2a-9d3f-e0924206f493)
+![image](https://github.com/user-attachments/assets/b4fcb222-26b2-46bb-973b-d4b0bfc81f6f)
+
 
 
 ## RESULT
