@@ -1,6 +1,6 @@
 # 2b IMPLEMENTATION OF SLIDING WINDOW PROTOCOL
-##Name:Madhupriya.R
-##Reg no: 212224040177
+## Name:Madhupriya.R
+## Reg no: 212224040177
 ## AIM
 To write a python program to perform sliding window protocol
 ## ALGORITHM:
@@ -12,7 +12,7 @@ To write a python program to perform sliding window protocol
 6. Stop the Program
 ## PROGRAM
 ```
-##client
+## client
 import socket
 s=socket.socket()
 s.bind(('localhost',8000))
@@ -31,7 +31,7 @@ while True:
         if ack:
            print(ack)
            i+=s
-##server
+## server
 import socket
 s=socket.socket()
 s.connect(('localhost',8000))
@@ -40,8 +40,12 @@ while True:
  s.send("acknowledgement recived from the server".encode())
 ```
 ## OUPUT
-![image](https://github.com/user-attachments/assets/4bacf67b-ffce-4d2a-9d3f-e0924206f493)
-![image](https://github.com/user-attachments/assets/b4fcb222-26b2-46bb-973b-d4b0bfc81f6f)
+![image](https://github.com/user-attachments/assets/8c8e3ebc-18a0-4c05-af45-ce7e004b7119)
+
+
+![image](https://github.com/user-attachments/assets/6b9d79b5-c24a-49ed-b105-3967bb711fd5)
+
+
 
 
 
